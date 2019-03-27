@@ -1,0 +1,62 @@
+//FONT AWESOME
+@import "../assets/scss/fontawesome.scss";
+@import "../assets/scss/solid.scss";
+@import "../assets/scss/brands.scss";
+
+.user {
+  @extend %fa-icon;
+  @extend .fas;
+
+  &:before {
+    content: fa-content($fa-var-user);
+  }
+
+}
+//FONT AWESOME
+
+@font-face{
+    font-family: open-sans;
+    src : url('../assets/fonts/open-sans.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: acme;
+    src : url('../assets/fonts/acme.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: quicksand;
+    src : url('../assets/fonts/quicksand.woff2') format('woff2');
+}
+
+
+*{
+    font-family: quicksand;
+}
+
+.logo{
+    display: block;
+    margin : auto;
+    margin-top : 15%;
+    width : 25% ;
+}
+
+.toolbar-title{
+    color : color($colors,primary);
+}
+
+.profilePicture{
+    width:90px;
+    height:90px;
+    -webkit-border-radius: 45%;
+    border-radius: 45%;
+    margin: auto;
+    display: block;
+}
+
+ion-item{
+    margin : auto!important;
+    padding : 0!important;  
+    width:75%!important;
+    background : rgba(255,255,255,0)!important;
+}

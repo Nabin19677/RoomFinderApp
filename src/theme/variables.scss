@@ -1,0 +1,58 @@
+$font-path: "../assets/fonts";
+//Font awesome imports
+$fa-font-path: "../assets/webfonts";
+
+$app-direction: ltr;
+
+
+@import "ionic.globals";
+
+//Custom
+$range-md-bar-background-color :red ;
+
+$colors: (
+  blue: #007bff,
+  indigo: #6610f2,
+  purple: #6f42c1,
+  pink: #e83e8c,
+  red: #dc3545,
+  orange: #fd7e14,
+  yellow: #ffc107,
+  green: #28a745,
+  teal: #20c997,
+  cyan: #17a2b8,
+  white: #fff,
+  gray: #6c757d,
+  gray-dark: #343a40,
+  primary: #007bff,
+  secondary: #6c757d,
+  success: #28a745,
+  info: #17a2b8,
+  warning: #ffc107,
+  danger: #dc3545,
+  light: #f8f9fa,
+  dark: #343a40,
+  google : #DB4437
+);
+
+//Text Related
+$text-input-highlight-color-valid : color($colors,success);
+$text-input-highlight-color-invalid : color($colors,danger);
+$text-input-placeholder-color : color($colors,gray-dark);
+
+//theme
+
+
+@import "ionic.theme.default";
+
+
+@import "ionic.ionicons";
+
+
+// Fonts
+// --------------------------------------------------
+
+@import "roboto";
+@import "noto-sans";
+
+
